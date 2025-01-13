@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Container Styles */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Upload Box */
+.upload-box {
+  padding: 20px;
+  border: 2px dashed #ccc;
+  margin: 20px 0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Output Section */
+#output {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+#output a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#output a:hover {
+  text-decoration: underline;
+}
